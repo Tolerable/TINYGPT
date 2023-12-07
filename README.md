@@ -1,14 +1,17 @@
-# TinyGPT
+## TinyGPT
 # Introduction
 
-TinyGPT is an interactive Python application that interfaces with OpenAI's GPT models. This application allows users to engage in conversations with an AI that simulates emotions and responds with human-like understanding. It primarily uses OpenAI's GPT-3.5-turbo model, with the option to switch to GPT-4.
+TinyGPT is a sophisticated Python application leveraging OpenAI's GPT models for interactive AI conversations. It utilizes GPT-3.5-turbo and GPT-4 for dynamic, emotionally resonant dialogues, emphasizing realism and user engagement.
 Features
 
-    Personalized AI interaction with a unique identity, TinyGPT.
-    Emulates emotional responses, creating a more engaging conversation experience.
-    Offers flexibility in choosing between GPT-3.5-turbo and GPT-4 models.
-    Efficient chat history management to maintain relevant context in conversations.
-
+    Enhanced AI interaction with TWO unique identities, adapting to user input.
+    Emotional response simulation for lifelike conversations.
+    Option to select between GPT-3.5-turbo and GPT-4 models.
+    Advanced chat history management for contextual awareness with limited past interactions.
+    Real-time token counting for interaction analysis to monitor use.
+    User-friendly interface with theme customization and font resize options.
+    Reload option added to resend persona as a system message to re-establish if necessary.
+    
 Requirements
 
     Python 3.x
@@ -16,26 +19,18 @@ Requirements
 
 Setup and Installation
 
-    Ensure Python 3.x is installed on your system.
-    Install the OpenAI Python library:
-
-    pip install openai
-
-    Set your OPENAI_API_KEY in your environment variables.
+    Install Python 3.x and the OpenAI library (pip install openai).
+    Set OPENAI_API_KEY in the environment variables.
 
 Usage
 
-Run the script in a Python environment. You will be prompted to select the GPT model and then can start interacting with the AI.
-
-python TinyGPT.py
-
-Follow the prompts to choose a model and start chatting with TinyGPT.
+Run TinyGPT.py and follow prompts to select a GPT model and start chatting. Features include real-time token tracking and interactive conversation management.
 Contribution
 
-Contributions to TinyGPT are welcome. Feel free to fork the repository, make improvements, and open pull requests. For major changes or suggestions, please open an issue first to discuss what you would like to change.
+Contributions are encouraged via forking, pull requests, and issues for major changes.
 License
 
-This project is released under the MIT License.
+Released under the MIT License.
 Disclaimer
 
-This project is not officially associated with OpenAI. It is a personal project developed for educational purposes and personal interest in AI.
+This is an independent project and is not officially associated with OpenAI.
