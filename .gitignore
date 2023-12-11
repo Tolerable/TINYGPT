@@ -1,0 +1,5 @@
+# Ignore files named TINYGPT-*.py
+TINYGPT-*.py
+
+# Previously ignored Assets folder, now tracked
+#!/Assets
